@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54ABFD7425AA88FA007E5F53 /* IcecreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ABFD7325AA88FA007E5F53 /* IcecreamView.swift */; };
+		54ABFD7725AA8C72007E5F53 /* MilkteaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ABFD7625AA8C72007E5F53 /* MilkteaView.swift */; };
 		54C350F825A8EA1D00614016 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C350F725A8EA1D00614016 /* FavouriteThingsSwiftUIApp.swift */; };
 		54C350FA25A8EA1D00614016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C350F925A8EA1D00614016 /* ContentView.swift */; };
 		54C350FC25A8EA2300614016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C350FB25A8EA2300614016 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		54ABFD7325AA88FA007E5F53 /* IcecreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcecreamView.swift; sourceTree = "<group>"; };
+		54ABFD7625AA8C72007E5F53 /* MilkteaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkteaView.swift; sourceTree = "<group>"; };
 		54C350F425A8EA1D00614016 /* FavouriteThingsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThingsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C350F725A8EA1D00614016 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
 		54C350F925A8EA1D00614016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				54C3510025A8EA2300614016 /* Info.plist */,
 				54C350FD25A8EA2300614016 /* Preview Content */,
 				54ABFD7325AA88FA007E5F53 /* IcecreamView.swift */,
+				54ABFD7625AA8C72007E5F53 /* MilkteaView.swift */,
 			);
 			path = FavouriteThingsSwiftUI;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				54C350FA25A8EA1D00614016 /* ContentView.swift in Sources */,
 				54C350F825A8EA1D00614016 /* FavouriteThingsSwiftUIApp.swift in Sources */,
+				54ABFD7725AA8C72007E5F53 /* MilkteaView.swift in Sources */,
 				54ABFD7425AA88FA007E5F53 /* IcecreamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
