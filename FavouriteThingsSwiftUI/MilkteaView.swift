@@ -17,13 +17,13 @@ struct milkteaView: View {
                 .padding(.horizontal)
                 .scaledToFit()
             
-            Text("I love the milktea from XiCha. It has many flavors and the bubbles taste awsome.")
+            Text("I love the milk tea from XiCha. It has many flavors and the bubbles taste awsome.")
                 .padding()
             
             Spacer()
             
         }
-        .navigationTitle("milktea")
+        .navigationTitle("Milk Tea")
         
         
     }
