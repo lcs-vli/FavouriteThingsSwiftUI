@@ -15,7 +15,7 @@ struct ContentView: View {
         
         List(favouriteThings.list) { Thing in
             
-            NavigationLink(Thing.titles, destination: ThingDetailView(thingToShow: Thing))
+            NavigationLink(Thing.title, destination: ThingDetailView(thingToShow: Thing))
             
         }
         

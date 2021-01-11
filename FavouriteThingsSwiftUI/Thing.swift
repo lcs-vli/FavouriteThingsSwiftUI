@@ -11,7 +11,7 @@ import Foundation
 struct Thing: Identifiable {
     
     let id = UUID()
-    let titles: String
+    let title: String
     let imageName: String
     let description: String
     

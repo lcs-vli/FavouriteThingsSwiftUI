@@ -26,7 +26,7 @@ struct ThingDetailView: View{
             Spacer()
             
         }
-        .navigationTitle(thingToShow.titles)
+        .navigationTitle(thingToShow.title)
         
         
     }
