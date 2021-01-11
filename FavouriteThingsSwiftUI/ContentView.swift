@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let favouriteThings = Things()
+    
     var body: some View {
         
-        List{
-            NavigationLink("Ice Cream", destination: IcecreamView())
-            NavigationLink("Milk Tea", destination: milkteaView())
-            NavigationLink("Audio Books", destination: AudioBooksView())
+        List(favouriteThings.list) { Thing in
+            
+            NavigationLink(Thing.titles, destination: ThingDetailView(thingToShow: Thing))
+            
         }
+        
         .navigationTitle("Favourite Things")
+        
     }
 }
 
