@@ -22,10 +22,13 @@ struct ThingDetailView: View{
             
             Text(thingToShow.description)
                 .padding()
+                .font(Font.system(size: 36, design: .rounded))
+                .multilineTextAlignment(.center)
             
             Spacer()
             
         }
+        
         .navigationTitle(thingToShow.title)
         
         
