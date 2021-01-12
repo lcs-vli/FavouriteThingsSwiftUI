@@ -18,7 +18,7 @@ struct Things{
         //icecream
         list.append(Thing(title: "Ice cream",
                           imageName: "icecream",
-                          description: "I really like books... let me tell you how much!",
+                          description: "I really like eating ice cream during all seasons of the year. Fruity flavours are for the summer, and creamy flavours are for colder times.",
                           relatedThings: [
                             Thing(title: "Mango Ice Cream", imageName: "mangoIceCream", description: "I love eating mango and mango ice cream is even better than mangos. It is great for the summer beucase it has a fruity chill taste."),
                             Thing(title: "Chocolate Ice Cream", imageName: "chocolateIceCream", description: "This is my favourite flavour of all time. I love having chocolate ice cream on a winter day while watching a good movie."),

@@ -22,8 +22,8 @@ struct ThingDetailView: View{
             
             Text(thingToShow.description)
                 .padding()
-                .font(Font.system(size: 40, design: .rounded))
-            
+                .font(Font.system(size: 36, design: .monospaced))
+        
             //if any related things, show
             if thingToShow.relatedThings.count > 0{
                 
