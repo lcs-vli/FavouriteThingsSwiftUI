@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Things{
+struct Things{
     
     //properties
     var list : [Thing] = [ ]
